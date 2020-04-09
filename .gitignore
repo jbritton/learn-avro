@@ -1,0 +1,7 @@
+*.iml
+.idea
+
+venv
+learn-avro-python/venv
+
+target

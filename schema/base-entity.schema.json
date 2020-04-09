@@ -1,0 +1,10 @@
+{
+  "name": "BaseEntity",
+  "doc": "Base entity item",
+  "type": "record",
+  "fields": [
+    {"name": "modelId", "type": "string"},
+    {"name": "modelType", "type": "string"}
+  ]
+}
+

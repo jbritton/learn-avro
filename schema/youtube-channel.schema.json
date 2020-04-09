@@ -1,0 +1,22 @@
+{
+  "name": "YouTubeChannel",
+  "doc": "YouTube channel entity",
+  "type": "record",
+  "fields": [
+    {"name": "modelId", "type": "string"},
+    {"name": "modelType", "type": "string"},
+    {"name": "title", "type": "string"},
+    {"name": "platform", "type": "string"},
+    {"name": "googleId", "type": "string"},
+    {"name": "publishedAt", "type": "string"},
+    {"name": "description", "type": "string"},
+    {"name": "keywords", "type": "string"},
+    {"name": "topic", "type": {"type": "array", "items": "string"}},
+    {"name": "topicCategories", "type": {"type": "array", "items": "string"}},
+    {"name": "videoCount", "type": "long"},
+    {"name": "viewCount", "type": "long"},
+    {"name": "commentCount", "type": "long"},
+    {"name": "subscriberCount", "type": ["long", "null"]}
+  ]
+}
+
