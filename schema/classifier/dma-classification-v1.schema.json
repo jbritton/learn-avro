@@ -4,9 +4,9 @@
   "doc": "Classification output from the dma classifier",
   "type": "record",
   "fields": [
-    {"name": "city", "type": ["string", "null"]},
-    {"name": "state", "type": ["string", "null"]},
-    {"name": "dma", "type": ["int", "null"]},
-    {"name": "dma_name", "type": ["string", "null"]}
+    {"name": "city", "type": ["string", "null"], "default": null },
+    {"name": "state", "type": ["string", "null"], "default": null },
+    {"name": "dma", "type": ["int", "null"], "default": null },
+    {"name": "dma_name", "type": ["string", "null"], "default": null }
   ]
 }

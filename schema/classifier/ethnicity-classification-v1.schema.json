@@ -4,10 +4,10 @@
   "doc": "Classification output from the ethnicity classifier",
   "type": "record",
   "fields": [
-    {"name": "african_black", "type": ["float", "null"]},
-    {"name": "white", "type": ["float", "null"]},
-    {"name": "asian", "type": ["float", "null"]},
-    {"name": "hispanic", "type": ["float", "null"]},
-    {"name": "unknown", "type": ["float", "null"]}
+    {"name": "african_black", "type": ["float", "null"], "default": null },
+    {"name": "white", "type": ["float", "null"], "default": null },
+    {"name": "asian", "type": ["float", "null"], "default": null },
+    {"name": "hispanic", "type": ["float", "null"], "default": null },
+    {"name": "unknown", "type": ["float", "null"], "default": null }
   ]
 }

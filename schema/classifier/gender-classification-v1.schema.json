@@ -4,8 +4,8 @@
   "doc": "Classification output from the gender classifier",
   "type": "record",
   "fields": [
-    {"name": "male", "type": ["float", "null"]},
-    {"name": "female", "type": ["float", "null"]},
-    {"name": "unknown", "type": ["float", "null"]}
+    {"name": "male", "type": ["float", "null"], "default": null },
+    {"name": "female", "type": ["float", "null"], "default": null },
+    {"name": "unknown", "type": ["float", "null"], "default": null }
   ]
 }

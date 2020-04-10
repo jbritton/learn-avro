@@ -25,13 +25,8 @@
     {"name": "gender", "type": ["GenderClassificationV1", "null"], "default": null },
     {"name": "genderVersion", "type": ["string", "null"], "default": null },
     {"name": "genderClassified", "type": ["string", "null"], "default": null },
-    {"name": "language", "type": ["LanguageClassificationV1", "null"], "default": null },
-    {"name": "languageVersion", "type": ["string", "null"], "default": null },
-    {"name": "languageClassified", "type": ["string", "null"], "default": null },
     {"name": "sentiment", "type": ["SentimentClassificationV1", "null"], "default": null },
     {"name": "sentimentVersion", "type": ["string", "null"], "default": null },
-    {"name": "sentimentClassified", "type": ["string", "null"], "default": null },
-    {"name": "topic", "type": ["TopicClassificationV1", "null"], "default": null },
-    {"name": "topicVersion", "type": ["string", "null"], "default": null },
-    {"name": "topicClassified", "type": ["string", "null"], "default": null }
+    {"name": "sentimentClassified", "type": ["string", "null"], "default": null }
+  ]
 }
