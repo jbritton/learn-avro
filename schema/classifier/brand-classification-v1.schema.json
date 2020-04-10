@@ -4,8 +4,8 @@
   "doc": "Classification output from the brand classifier",
   "type": "record",
   "fields": [
-    {"name": "brand", "type": ["float", "null"], "default": null },
-    {"name": "creator", "type": ["float", "null"], "default": null },
-    {"name": "unknown", "type": ["float", "null"], "default": null }
+    {"name": "brand", "type": ["float", "null"]},
+    {"name": "creator", "type": ["float", "null"]},
+    {"name": "unknown", "type": ["float", "null"]}
   ]
 }

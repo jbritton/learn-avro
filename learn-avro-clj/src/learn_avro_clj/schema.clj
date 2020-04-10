@@ -6,10 +6,8 @@
 
 (def base-entity-schema "base-entity.schema.json")
 
-(def youtube-channel-schema "youtube-channel.schema.json")
+;(def youtube-channel-schema "youtube-channel.schema.json")
 
 (defn read-schema-file [file-name]
   (slurp (str schema-dir file-name)))
-
-
 

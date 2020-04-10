@@ -6,83 +6,67 @@
     "fields": [
         {
             "name": "category",
-            "type": [ "CategoryClassificationV1", "null" ],
-            "default": null
+            "type": [ "icx.CategoryClassificationV1", "null" ]
         },
         {
             "name": "classified",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "createdTime",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "description",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "displayUrls",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "expandedUrls",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "favoriteCount",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ "long", "null" ]
         },
         {
             "name": "icxRemovedLatitude",
-            "type": [ "boolean", "null" ],
-            "default": null
+            "type": [ "boolean", "null" ]
         },
         {
             "name": "icxRemovedLongitude",
-            "type": [ "boolean", "null" ],
-            "default": null
+            "type": [ "boolean", "null" ]
         },
         {
             "name": "isEnglish",
-            "type": [ "boolean", "null" ],
-            "default": null
+            "type": [ "boolean", "null" ]
         },
         {
             "name": "language",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "locationType",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "mediaExpandedUrls",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "mediaUrls",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "mentionedIds",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "mentionedUsers",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "modelId",
@@ -94,63 +78,51 @@
         },
         {
             "name": "postSource",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "replyCount",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ "long", "null" ]
         },
         {
             "name": "retweetCount",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ "long", "null" ]
         },
         {
             "name": "sentiment",
-            "type": [ "SentimentClassificationV1", "null" ],
-            "default": null
+            "type": [ "icx.SentimentClassificationV1", "null" ]
         },
         {
             "name": "tag",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "twitterId",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ "long", "null" ]
         },
         {
             "name": "twitterModelId",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "twitterStrId",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "typeVideo",
-            "type": [ "boolean", "null" ],
-            "default": null
+            "type": [ "boolean", "null" ]
         },
         {
             "name": "urls",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "userId",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ "long", "null" ]
         },
         {
             "name": "userIdStr",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         }
     ]
 }

@@ -4,9 +4,9 @@
   "doc": "Classification output from the age classifier",
   "type": "record",
   "fields": [
-    {"name": "young", "type": ["float", "null"], "default": null },
-    {"name": "mid", "type": ["float", "null"], "default": null },
-    {"name": "old", "type": ["float", "null"], "default": null },
-    {"name": "unknown", "type": ["float", "null"], "default": null }
+    {"name": "young", "type": ["float", "null"]},
+    {"name": "mid", "type": ["float", "null"]},
+    {"name": "old", "type": ["float", "null"]},
+    {"name": "unknown", "type": ["float", "null"]}
   ]
 }

@@ -6,68 +6,55 @@
     "fields": [
         {
             "name": "canRate",
-            "type": [ "boolean", "null" ],
-            "default": null
+            "type": [ "boolean", "null" ]
         },
         {
             "name": "canReply",
-            "type": [ "boolean", "null" ],
-            "default": null
+            "type": [ "boolean", "null" ]
         },
         {
             "name": "consumer",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "content",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "contentId",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "crawlUpdatedTime",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "createdTime",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "dbId",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ "long", "null" ]
         },
         {
             "name": "facebookId",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "googleId",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "instagramId",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "isPublic",
-            "type": [ "boolean", "null" ],
-            "default": null
+            "type": [ "boolean", "null" ]
         },
         {
             "name": "likeCount",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ "long", "null" ]
         },
         {
             "name": "modelId",
@@ -79,68 +66,55 @@
         },
         {
             "name": "name",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "parentId",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "post",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "posted",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "replyCount",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ "long", "null" ]
         },
         {
             "name": "replyTo",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "source",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "taskSourceRootUuid",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "textOriginal",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "type",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "updatedAt",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "viewerRating",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "vimeoId",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         }
     ]
 }

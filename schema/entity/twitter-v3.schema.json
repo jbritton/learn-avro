@@ -6,94 +6,75 @@
     "fields": [
         {
             "name": "age",
-            "type": [ "AgeClassificationV1", "null" ],
-            "default": null
+            "type": [ "icx.AgeClassificationV1", "null" ]
         },
         {
             "name": "category",
-            "type": [ "CategoryClassificationV1", "null" ],
-            "default": null
+            "type": [ { "type": "map", "values": "float" }, "null" ]
         },
         {
             "name": "classified",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "createdAt",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "description",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "email",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "ethnicity",
-            "type": [ "EthnicityClassificationV1", "null" ],
-            "default": null
+            "type": [ "icx.EthnicityClassificationV1", "null" ]
         },
         {
             "name": "ffMigrated",
-            "type": [ "boolean", "null" ],
-            "default": null
+            "type": [ "boolean", "null" ]
         },
         {
             "name": "followerIds",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ { "type": "array", "items": "string" }, "null" ]
         },
         {
             "name": "followers",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ { "type": "array", "items": "long" }, "null" ]
         },
         {
             "name": "followersCount",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ "long", "null" ]
         },
         {
             "name": "friendIds",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ { "type": "array", "items": "string" }, "null" ]
         },
         {
             "name": "friends",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ { "type": "array", "items": "long" }, "null" ]
         },
         {
             "name": "friendsCount",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ "long", "null" ]
         },
         {
             "name": "gender",
-            "type": [ "GenderClassificationV2", "null" ],
-            "default": null
+            "type": [ "icx.GenderClassificationV1", "null" ]
         },
         {
             "name": "inferredFollowers",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "inferredlocation",
-            "type": [ "map", "null" ],
-            "values": "string",
-            "default": null
+            "type": [ { "type": "map", "values": "string" }, "null" ]
         },
         {
             "name": "location",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "modelId",
@@ -105,28 +86,23 @@
         },
         {
             "name": "notUs",
-            "type": [ "boolean", "null" ],
-            "default": null
+            "type": [ "boolean", "null" ]
         },
         {
             "name": "screenName",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "title",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         },
         {
             "name": "twitterId",
-            "type": [ "long", "null" ],
-            "default": null
+            "type": [ "long", "null" ]
         },
         {
             "name": "twitterStrId",
-            "type": [ "string", "null" ],
-            "default": null
+            "type": [ "string", "null" ]
         }
     ]
 }
