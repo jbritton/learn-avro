@@ -1,0 +1,12 @@
+{
+  "name": "SentimentClassificationV1",
+  "namespace": "icx",
+  "doc": "Classification output from the sentiment classifier",
+  "type": "record",
+  "fields": [
+    {"name": "positive", "type": ["float", "null"]},
+    {"name": "negative", "type": ["float", "null"]},
+    {"name": "neutral", "type": ["float", "null"]},
+    {"name": "unknown", "type": ["float", "null"]}
+  ]
+}

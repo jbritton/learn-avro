@@ -1,0 +1,630 @@
+{
+  "acbRating": {
+    "type": "keyword"
+  },
+  "activeLiveChatId": {
+    "type": "keyword"
+  },
+  "actualEndTime": {
+    "type": "date"
+  },
+  "actualStartTime": {
+    "type": "date"
+  },
+  "agcomRating": {
+    "type": "keyword"
+  },
+  "allowed": {
+    "type": "keyword"
+  },
+  "altitude": {
+    "type": "long"
+  },
+  "anatelRating": {
+    "type": "keyword"
+  },
+  "avgWatchLength": {
+    "type": "long"
+  },
+  "bbfcRating": {
+    "type": "keyword"
+  },
+  "bfvcRating": {
+    "type": "keyword"
+  },
+  "bitrateBps": {
+    "type": "long"
+  },
+  "blocked": {
+    "type": "keyword"
+  },
+  "bmukkRating": {
+    "type": "keyword"
+  },
+  "caption": {
+    "type": "keyword"
+  },
+  "category": {
+    "type": "keyword",
+    "fields": {
+      "raw": {
+        "type": "text"
+      }
+    }
+  },
+  "categoryId": {
+    "type": "long"
+  },
+  "catvRating": {
+    "type": "keyword"
+  },
+  "catvfrRating": {
+    "type": "keyword"
+  },
+  "cbfcRating": {
+    "type": "keyword"
+  },
+  "cccRating": {
+    "type": "keyword"
+  },
+  "cceRating": {
+    "type": "keyword"
+  },
+  "channel": {
+    "type": "keyword"
+  },
+  "chfilmRating": {
+    "type": "keyword"
+  },
+  "chvrsRating": {
+    "type": "keyword"
+  },
+  "cicfRating": {
+    "type": "keyword"
+  },
+  "cnaRating": {
+    "type": "keyword"
+  },
+  "cncRating": {
+    "type": "keyword"
+  },
+  "commentCount": {
+    "type": "long"
+  },
+  "concurrentViewers": {
+    "type": "long"
+  },
+  "container": {
+    "type": "keyword"
+  },
+  "contentRating": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "crawlUpdatedTime": {
+    "type": "date"
+  },
+  "createdTime": {
+    "type": "keyword"
+  },
+  "creationTime": {
+    "type": "keyword"
+  },
+  "creditCount": {
+    "type": "long"
+  },
+  "csaRating": {
+    "type": "keyword"
+  },
+  "cscfRating": {
+    "type": "keyword"
+  },
+  "czfilmRating": {
+    "type": "keyword"
+  },
+  "dbId": {
+    "type": "long"
+  },
+  "defaultLanguage": {
+    "type": "keyword"
+  },
+  "definition": {
+    "type": "keyword"
+  },
+  "description": {
+    "type": "text"
+  },
+  "dimension": {
+    "type": "keyword"
+  },
+  "dislikeCount": {
+    "type": "long"
+  },
+  "displayName": {
+    "type": "text"
+  },
+  "djctqRating": {
+    "type": "keyword"
+  },
+  "djctqRatingReasons": {
+    "type": "keyword"
+  },
+  "duration": {
+    "type": "long"
+  },
+  "durationMs": {
+    "type": "long"
+  },
+  "ecbmctRating": {
+    "type": "keyword"
+  },
+  "editorSuggestions": {
+    "type": "keyword"
+  },
+  "editorSuggestionsAvailability": {
+    "type": "keyword"
+  },
+  "eefilmRating": {
+    "type": "keyword"
+  },
+  "egfilmRating": {
+    "type": "keyword"
+  },
+  "eirinRating": {
+    "type": "keyword"
+  },
+  "embed": {
+    "type": "text"
+  },
+  "embedHeight": {
+    "type": "long"
+  },
+  "embedHtml": {
+    "type": "keyword"
+  },
+  "embedWidth": {
+    "type": "long"
+  },
+  "embeddable": {
+    "type": "boolean"
+  },
+  "facebookGraphId": {
+    "type": "keyword"
+  },
+  "facebookId": {
+    "type": "keyword"
+  },
+  "failureReason": {
+    "type": "keyword"
+  },
+  "fcbmRating": {
+    "type": "keyword"
+  },
+  "fcoRating": {
+    "type": "keyword"
+  },
+  "fileCreationTime": {
+    "type": "keyword"
+  },
+  "fileDetailsAvailability": {
+    "type": "keyword"
+  },
+  "fileName": {
+    "type": "keyword"
+  },
+  "fileSize": {
+    "type": "long"
+  },
+  "filter": {
+    "type": "keyword"
+  },
+  "fpbRating": {
+    "type": "keyword"
+  },
+  "fpbRatingReasons": {
+    "type": "keyword"
+  },
+  "fskRating": {
+    "type": "keyword"
+  },
+  "googleId": {
+    "type": "keyword"
+  },
+  "grfilmRating": {
+    "type": "keyword"
+  },
+  "hasCustomThumbnail": {
+    "type": "boolean"
+  },
+  "height": {
+    "type": "long"
+  },
+  "icaaRating": {
+    "type": "keyword"
+  },
+  "icxLocationIdRemoved": {
+    "type": "boolean"
+  },
+  "icxLocationLatitudeRemoved": {
+    "type": "boolean"
+  },
+  "icxLocationLongitudeRemoved": {
+    "type": "boolean"
+  },
+  "icxLocationNameRemoved": {
+    "type": "boolean"
+  },
+  "ifcoRating": {
+    "type": "keyword"
+  },
+  "ilfilmRating": {
+    "type": "keyword"
+  },
+  "imageUrl": {
+    "type": "keyword"
+  },
+  "incaaRating": {
+    "type": "keyword"
+  },
+  "instagramId": {
+    "type": "keyword"
+  },
+  "isCrosspostVideo": {
+    "type": "boolean"
+  },
+  "kfcbRating": {
+    "type": "keyword"
+  },
+  "kijkwijzerRating": {
+    "type": "keyword"
+  },
+  "kmrbRating": {
+    "type": "keyword"
+  },
+  "language": {
+    "type": "keyword"
+  },
+  "license": {
+    "type": "keyword"
+  },
+  "licensedContent": {
+    "type": "boolean"
+  },
+  "likeAdded": {
+    "type": "boolean"
+  },
+  "likeAddedTime": {
+    "type": "date"
+  },
+  "likeCount": {
+    "type": "long"
+  },
+  "locationId": {
+    "type": "long"
+  },
+  "locationLatitude": {
+    "type": "float"
+  },
+  "locationLongitude": {
+    "type": "float"
+  },
+  "locationName": {
+    "type": "keyword"
+  },
+  "lsfRating": {
+    "type": "keyword"
+  },
+  "mccaaRating": {
+    "type": "keyword"
+  },
+  "mccypRating": {
+    "type": "keyword"
+  },
+  "mcstRating": {
+    "type": "keyword"
+  },
+  "mdaRating": {
+    "type": "keyword"
+  },
+  "medietilsynetRating": {
+    "type": "keyword"
+  },
+  "mekuRating": {
+    "type": "keyword"
+  },
+  "mibacRating": {
+    "type": "keyword"
+  },
+  "mocRating": {
+    "type": "keyword"
+  },
+  "moctwRating": {
+    "type": "keyword"
+  },
+  "modelId": {
+    "type": "keyword"
+  },
+  "modelType": {
+    "type": "keyword"
+  },
+  "modifiedTime": {
+    "type": "keyword"
+  },
+  "mpaaRating": {
+    "type": "keyword"
+  },
+  "mpaatRating": {
+    "type": "keyword"
+  },
+  "mtrcbRating": {
+    "type": "keyword"
+  },
+  "nbcRating": {
+    "type": "keyword"
+  },
+  "nbcplRating": {
+    "type": "keyword"
+  },
+  "nfrcRating": {
+    "type": "keyword"
+  },
+  "nfvcbRating": {
+    "type": "keyword"
+  },
+  "nkclvRating": {
+    "type": "keyword"
+  },
+  "oflcRating": {
+    "type": "keyword"
+  },
+  "partsProcessed": {
+    "type": "long"
+  },
+  "partsTotal": {
+    "type": "long"
+  },
+  "pefilmRating": {
+    "type": "keyword"
+  },
+  "pictureCount": {
+    "type": "long"
+  },
+  "platformId": {
+    "type": "keyword"
+  },
+  "posted": {
+    "type": "date"
+  },
+  "previewImageActive": {
+    "type": "boolean"
+  },
+  "previewImageEndpoint": {
+    "type": "text"
+  },
+  "previewImageHeight": {
+    "type": "long"
+  },
+  "previewImageHeightHigh": {
+    "type": "long"
+  },
+  "previewImageHeightMaxres": {
+    "type": "long"
+  },
+  "previewImageHeightMedium": {
+    "type": "long"
+  },
+  "previewImageHeightStandard": {
+    "type": "long"
+  },
+  "previewImageSizes": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "previewImageType": {
+    "type": "keyword"
+  },
+  "previewImageUrl": {
+    "type": "keyword"
+  },
+  "previewImageUrlHigh": {
+    "type": "keyword"
+  },
+  "previewImageUrlMaxres": {
+    "type": "keyword"
+  },
+  "previewImageUrlMedium": {
+    "type": "keyword"
+  },
+  "previewImageUrlStandard": {
+    "type": "keyword"
+  },
+  "previewImageWidth": {
+    "type": "long"
+  },
+  "previewImageWidthHigh": {
+    "type": "long"
+  },
+  "previewImageWidthMaxres": {
+    "type": "long"
+  },
+  "previewImageWidthMedium": {
+    "type": "long"
+  },
+  "previewImageWidthStandard": {
+    "type": "long"
+  },
+  "privacyAdd": {
+    "type": "boolean"
+  },
+  "privacyComments": {
+    "type": "keyword"
+  },
+  "privacyDownload": {
+    "type": "boolean"
+  },
+  "privacyEmbed": {
+    "type": "keyword"
+  },
+  "privacyScope": {
+    "type": "keyword"
+  },
+  "processingErrors": {
+    "type": "keyword"
+  },
+  "processingFailureReason": {
+    "type": "keyword"
+  },
+  "processingHints": {
+    "type": "keyword"
+  },
+  "processingIssuesAvailability": {
+    "type": "keyword"
+  },
+  "processingStatus": {
+    "type": "keyword"
+  },
+  "processingWarnings": {
+    "type": "keyword"
+  },
+  "projection": {
+    "type": "keyword"
+  },
+  "publicStatsViewable": {
+    "type": "boolean"
+  },
+  "publishAt": {
+    "type": "date"
+  },
+  "rcnofRating": {
+    "type": "keyword"
+  },
+  "recordingDate": {
+    "type": "date"
+  },
+  "rejectionReason": {
+    "type": "keyword"
+  },
+  "releaseTime": {
+    "type": "keyword"
+  },
+  "reportReason": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "resorteviolenciaRating": {
+    "type": "keyword"
+  },
+  "rtcRating": {
+    "type": "keyword"
+  },
+  "rteRating": {
+    "type": "keyword"
+  },
+  "russiaRating": {
+    "type": "keyword"
+  },
+  "scheduledEndTime": {
+    "type": "date"
+  },
+  "scheduledPublishTime": {
+    "type": "keyword"
+  },
+  "scheduledStartTime": {
+    "type": "date"
+  },
+  "skfilmRating": {
+    "type": "keyword"
+  },
+  "smaisRating": {
+    "type": "keyword"
+  },
+  "smsaRating": {
+    "type": "keyword"
+  },
+  "tag": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "tagId": {
+    "type": "long"
+  },
+  "tagSuggestionsAvailability": {
+    "type": "keyword"
+  },
+  "taskSourceRootUuid": {
+    "type": "keyword"
+  },
+  "taskUuid": {
+    "type": "keyword"
+  },
+  "texttrackCount": {
+    "type": "long"
+  },
+  "thumbnailsAvailability": {
+    "type": "keyword"
+  },
+  "timeLeftMs": {
+    "type": "long"
+  },
+  "topic": {
+    "type": "keyword"
+  },
+  "topicCategories": {
+    "type": "keyword"
+  },
+  "tvpgRating": {
+    "type": "keyword"
+  },
+  "uniqueViewCount": {
+    "type": "long"
+  },
+  "updatedTime": {
+    "type": "keyword"
+  },
+  "uploadStatus": {
+    "type": "keyword"
+  },
+  "url": {
+    "type": "keyword"
+  },
+  "uuid": {
+    "type": "keyword"
+  },
+  "videoUrl": {
+    "type": "keyword"
+  },
+  "viewCount": {
+    "type": "long"
+  },
+  "vimeoId": {
+    "type": "keyword"
+  },
+  "watchlaterAdded": {
+    "type": "boolean"
+  },
+  "watchlaterAddedTime": {
+    "type": "date"
+  },
+  "width": {
+    "type": "long"
+  },
+  "ytRating": {
+    "type": "keyword"
+  }
+}

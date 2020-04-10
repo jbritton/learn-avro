@@ -1,0 +1,561 @@
+{
+    "name": "ChannelV2",
+    "namespace": "icx",
+    "doc": "Channel entity v2",
+    "type": "record",
+    "fields": [
+        {
+            "name": "account",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "accountName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "albumCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "appearanceCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "backgroundImageUrl",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "bannerImageUrl",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "bio",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "blockAdded",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "blockAddedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "category",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "channelCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "channelImageActive",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "channelImageEndpoint",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "channelImageSizes",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "channelImageType",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "commentCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "communityGuidelinesGoodStanding",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "contentIdClaimsGoodStanding",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "contentOwner",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "copyrightStrikesGoodStanding",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "country",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "crawlUpdatedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "createdAt",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "createdTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "customUrl",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "dbId",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "defaultLanguage",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "defaultTab",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "description",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "facebookGraphId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "facebookId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "featuredChannelsTitle",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "featuredChannelsUrls",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "followAdded",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "followAddedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "followCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "followingCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "fullName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "googleId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "googlePlusApiId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "googlePlusId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "groupCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxLocationRemoved",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxLocationStringRemoved",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "instagramApiId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "instagramFullName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "instagramId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "isBusiness",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "isLinked",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "isVerified",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "keywords",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "languageCode",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "likeCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "link",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "linkedinId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "location",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "locationString",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "longUploadsStatus",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "modelId",
+            "type": [ "string" ]
+        },
+        {
+            "name": "modelType",
+            "type": [ "string" ]
+        },
+        {
+            "name": "moderateComments",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "moderatedChannelCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "name",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "overallGoodStanding",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "owner",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "pageImpressions",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "pictureCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "platform",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "platformId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "platformType",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "portfolioCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "postCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "preferencesVideosPrivacy",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "privacyStatus",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "profileColor",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "profileUrl",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "relatedPlaylistsFavorites",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "relatedPlaylistsLikes",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "relatedPlaylistsUploads",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "reportReason",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "searchable",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "sharedCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "showBrowseView",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "showRelatedChannels",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "subscriberCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "taskSourceRootUuid",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "taskUuid",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "thumbnail",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "thumbnailDefault",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "thumbnailHeight",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "thumbnailHeightDefault",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "thumbnailHeightHigh",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "thumbnailHigh",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "thumbnailWidth",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "thumbnailWidthDefault",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "thumbnailWidthHigh",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "timeLinked",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "title",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "topic",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "topicCategories",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "trackingAnalyticsAccountId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "twitterApiId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "twitterId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "unsubscribedTrailer",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "uuid",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "videoCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "viewCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "vimeoApiId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "vimeoId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "watchlaterCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "website",
+            "type": [ "string", "null" ],
+            "default": null
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "name": "TwitterV3",
+    "namespace": "icx",
+    "doc": "Twitter entity v3",
+    "type": "record",
+    "fields": [
+        {
+            "name": "age",
+            "type": [ "AgeClassificationV1", "null" ],
+            "default": null
+        },
+        {
+            "name": "category",
+            "type": [ "CategoryClassificationV1", "null" ],
+            "default": null
+        },
+        {
+            "name": "classified",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "createdAt",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "description",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "email",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "ethnicity",
+            "type": [ "EthnicityClassificationV1", "null" ],
+            "default": null
+        },
+        {
+            "name": "ffMigrated",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "followerIds",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "followers",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "followersCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "friendIds",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "friends",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "friendsCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "gender",
+            "type": [ "GenderClassificationV2", "null" ],
+            "default": null
+        },
+        {
+            "name": "inferredFollowers",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "inferredlocation",
+            "type": [ "map", "null" ],
+            "values": "string",
+            "default": null
+        },
+        {
+            "name": "location",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "modelId",
+            "type": [ "string" ]
+        },
+        {
+            "name": "modelType",
+            "type": [ "string" ]
+        },
+        {
+            "name": "notUs",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "screenName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "title",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "twitterId",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "twitterStrId",
+            "type": [ "string", "null" ],
+            "default": null
+        }
+    ]
+}

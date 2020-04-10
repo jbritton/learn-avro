@@ -1,0 +1,7 @@
+{
+  "name": "AttributeClassificationV1",
+  "namespace": "icx",
+  "doc": "Classification output from the ethnicity classifier",
+  "type": "map",
+  "values": "float"
+}

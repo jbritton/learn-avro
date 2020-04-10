@@ -1,0 +1,211 @@
+{
+    "name": "TweetV3",
+    "namespace": "icx",
+    "doc": "Tweet entity v3",
+    "type": "record",
+    "fields": [
+        {
+            "name": "category",
+            "type": [
+                "FIXME",
+                "null"
+            ]
+        },
+        {
+            "name": "classified",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "createdTime",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "description",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "displayUrls",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "expandedUrls",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "favoriteCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "icxRemovedLatitude",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "icxRemovedLongitude",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "isEnglish",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "language",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "locationType",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "mediaExpandedUrls",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "mediaUrls",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "mentionedIds",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "mentionedUsers",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "modelId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "postSource",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "replyCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "retweetCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "sentiment",
+            "type": [
+                "FIXME",
+                "null"
+            ]
+        },
+        {
+            "name": "tag",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "twitterId",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "twitterModelId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "twitterStrId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "typeVideo",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "urls",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "userId",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "userIdStr",
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    ]
+}

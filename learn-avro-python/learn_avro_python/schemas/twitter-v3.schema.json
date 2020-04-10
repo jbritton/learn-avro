@@ -1,0 +1,176 @@
+{
+    "name": "TwitterV3",
+    "namespace": "icx",
+    "doc": "Twitter entity v3",
+    "type": "record",
+    "fields": [
+        {
+            "name": "age",
+            "type": [
+                "FIXME",
+                "null"
+            ]
+        },
+        {
+            "name": "category",
+            "type": [
+                "FIXME",
+                "null"
+            ]
+        },
+        {
+            "name": "classified",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "createdAt",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "description",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "email",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "ethnicity",
+            "type": [
+                "FIXME",
+                "null"
+            ]
+        },
+        {
+            "name": "ffMigrated",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "followerIds",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "followers",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "followersCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "friendIds",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "friends",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "friendsCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "gender",
+            "type": [
+                "FIXME",
+                "null"
+            ]
+        },
+        {
+            "name": "inferredFollowers",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "inferredlocation",
+            "type": [
+                "FIXME",
+                "null"
+            ]
+        },
+        {
+            "name": "location",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "modelId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "notUs",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "screenName",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "title",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "twitterId",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "twitterStrId",
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    ]
+}

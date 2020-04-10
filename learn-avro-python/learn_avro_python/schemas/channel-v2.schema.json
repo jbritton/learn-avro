@@ -1,0 +1,785 @@
+{
+    "name": "ChannelV2",
+    "namespace": "icx",
+    "doc": "Channel entity v2",
+    "type": "record",
+    "fields": [
+        {
+            "name": "account",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "accountName",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "albumCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "appearanceCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "backgroundImageUrl",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "bannerImageUrl",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "bio",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "blockAdded",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "blockAddedTime",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "category",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "channelCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "channelImageActive",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "channelImageEndpoint",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "channelImageSizes",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "channelImageType",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "commentCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "communityGuidelinesGoodStanding",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "contentIdClaimsGoodStanding",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "contentOwner",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "copyrightStrikesGoodStanding",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "country",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "crawlUpdatedTime",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "createdAt",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "createdTime",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "customUrl",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "dbId",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "defaultLanguage",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "defaultTab",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "description",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "facebookGraphId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "facebookId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "featuredChannelsTitle",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "featuredChannelsUrls",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "followAdded",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "followAddedTime",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "followCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "followingCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "fullName",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "googleId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "googlePlusApiId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "googlePlusId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "groupCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "icxLocationRemoved",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "icxLocationStringRemoved",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "instagramApiId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "instagramFullName",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "instagramId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "isBusiness",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "isLinked",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "isVerified",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "keywords",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "languageCode",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "likeCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "link",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "linkedinId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "location",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "locationString",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "longUploadsStatus",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "modelId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "modelType",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "moderateComments",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "moderatedChannelCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "name",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "overallGoodStanding",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "owner",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "pageImpressions",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "pictureCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "platform",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "platformId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "platformType",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "portfolioCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "postCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "preferencesVideosPrivacy",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "privacyStatus",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "profileColor",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "profileUrl",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "relatedPlaylistsFavorites",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "relatedPlaylistsLikes",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "relatedPlaylistsUploads",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "reportReason",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "searchable",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "sharedCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "showBrowseView",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "showRelatedChannels",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "subscriberCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "taskSourceRootUuid",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "taskUuid",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "thumbnail",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "thumbnailDefault",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "thumbnailHeight",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "thumbnailHeightDefault",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "thumbnailHeightHigh",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "thumbnailHigh",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "thumbnailWidth",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "thumbnailWidthDefault",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "thumbnailWidthHigh",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "timeLinked",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "title",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "topic",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "topicCategories",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "trackingAnalyticsAccountId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "twitterApiId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "twitterId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "unsubscribedTrailer",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "uuid",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "videoCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "viewCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "vimeoApiId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "vimeoId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "watchlaterCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "website",
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    ]
+}

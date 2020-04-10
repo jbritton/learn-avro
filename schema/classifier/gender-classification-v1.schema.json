@@ -1,0 +1,11 @@
+{
+  "name": "GenderClassificationV1",
+  "namespace": "icx",
+  "doc": "Classification output from the gender classifier",
+  "type": "record",
+  "fields": [
+    {"name": "male", "type": ["float", "null"]},
+    {"name": "female", "type": ["float", "null"]},
+    {"name": "unknown", "type": ["float", "null"]}
+  ]
+}

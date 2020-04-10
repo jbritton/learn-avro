@@ -1,0 +1,86 @@
+{
+  "canRate": {
+    "type": "boolean"
+  },
+  "canReply": {
+    "type": "boolean"
+  },
+  "consumer": {
+    "type": "keyword"
+  },
+  "content": {
+    "type": "text"
+  },
+  "contentId": {
+    "type": "keyword"
+  },
+  "crawlUpdatedTime": {
+    "type": "date"
+  },
+  "createdTime": {
+    "type": "date"
+  },
+  "dbId": {
+    "type": "long"
+  },
+  "facebookId": {
+    "type": "keyword"
+  },
+  "googleId": {
+    "type": "keyword"
+  },
+  "instagramId": {
+    "type": "keyword"
+  },
+  "isPublic": {
+    "type": "boolean"
+  },
+  "likeCount": {
+    "type": "long"
+  },
+  "modelId": {
+    "type": "keyword"
+  },
+  "modelType": {
+    "type": "keyword"
+  },
+  "name": {
+    "type": "keyword"
+  },
+  "parentId": {
+    "type": "keyword"
+  },
+  "post": {
+    "type": "keyword"
+  },
+  "posted": {
+    "type": "date"
+  },
+  "replyCount": {
+    "type": "long"
+  },
+  "replyTo": {
+    "type": "keyword"
+  },
+  "source": {
+    "type": "keyword"
+  },
+  "taskSourceRootUuid": {
+    "type": "keyword"
+  },
+  "textOriginal": {
+    "type": "keyword"
+  },
+  "type": {
+    "type": "keyword"
+  },
+  "updatedAt": {
+    "type": "date"
+  },
+  "viewerRating": {
+    "type": "keyword"
+  },
+  "vimeoId": {
+    "type": "keyword"
+  }
+}

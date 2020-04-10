@@ -1,0 +1,1011 @@
+{
+    "name": "SourceV2",
+    "namespace": "icx",
+    "doc": "Sources entity v2",
+    "type": "record",
+    "fields": [
+        {
+            "name": "acbRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "activeLiveChatId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "actualEndTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "actualStartTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "agcomRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "allowed",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "altitude",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "anatelRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "avgWatchLength",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "bbfcRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "bfvcRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "bitrateBps",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "blocked",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "bmukkRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "caption",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "category",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "categoryId",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "catvRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "catvfrRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "cbfcRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "cccRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "cceRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "channel",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "chfilmRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "chvrsRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "cicfRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "cnaRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "cncRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "commentCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "concurrentViewers",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "container",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "contentRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "crawlUpdatedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "createdTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "creationTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "creditCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "csaRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "cscfRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "czfilmRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "dbId",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "defaultLanguage",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "definition",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "description",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "dimension",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "dislikeCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "displayName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "djctqRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "djctqRatingReasons",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "duration",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "durationMs",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "ecbmctRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "editorSuggestions",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "editorSuggestionsAvailability",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "eefilmRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "egfilmRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "eirinRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "embed",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "embedHeight",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "embedHtml",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "embedWidth",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "embeddable",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "facebookGraphId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "facebookId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "failureReason",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "fcbmRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "fcoRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "fileCreationTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "fileDetailsAvailability",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "fileName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "fileSize",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "filter",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "fpbRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "fpbRatingReasons",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "fskRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "googleId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "grfilmRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "hasCustomThumbnail",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "height",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "icaaRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxLocationIdRemoved",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxLocationLatitudeRemoved",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxLocationLongitudeRemoved",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxLocationNameRemoved",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "ifcoRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "ilfilmRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "imageUrl",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "incaaRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "instagramId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "isCrosspostVideo",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "kfcbRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "kijkwijzerRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "kmrbRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "language",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "license",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "licensedContent",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "likeAdded",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "likeAddedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "likeCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "locationId",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "locationLatitude",
+            "type": [ "float", "null" ],
+            "default": null
+        },
+        {
+            "name": "locationLongitude",
+            "type": [ "float", "null" ],
+            "default": null
+        },
+        {
+            "name": "locationName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "lsfRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mccaaRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mccypRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mcstRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mdaRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "medietilsynetRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mekuRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mibacRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mocRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "moctwRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "modelId",
+            "type": [ "string" ]
+        },
+        {
+            "name": "modelType",
+            "type": [ "string" ]
+        },
+        {
+            "name": "modifiedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mpaaRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mpaatRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mtrcbRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "nbcRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "nbcplRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "nfrcRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "nfvcbRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "nkclvRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "oflcRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "partsProcessed",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "partsTotal",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "pefilmRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "pictureCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "platformId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "posted",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageActive",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageEndpoint",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageHeight",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageHeightHigh",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageHeightMaxres",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageHeightMedium",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageHeightStandard",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageSizes",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageType",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageUrl",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageUrlHigh",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageUrlMaxres",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageUrlMedium",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageUrlStandard",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageWidth",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageWidthHigh",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageWidthMaxres",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageWidthMedium",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "previewImageWidthStandard",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "privacyAdd",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "privacyComments",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "privacyDownload",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "privacyEmbed",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "privacyScope",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "processingErrors",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "processingFailureReason",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "processingHints",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "processingIssuesAvailability",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "processingStatus",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "processingWarnings",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "projection",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "publicStatsViewable",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "publishAt",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "rcnofRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "recordingDate",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "rejectionReason",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "releaseTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "reportReason",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "resorteviolenciaRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "rtcRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "rteRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "russiaRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "scheduledEndTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "scheduledPublishTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "scheduledStartTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "skfilmRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "smaisRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "smsaRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "tag",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "tagId",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "tagSuggestionsAvailability",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "taskSourceRootUuid",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "taskUuid",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "texttrackCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "thumbnailsAvailability",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "timeLeftMs",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "topic",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "topicCategories",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "tvpgRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "uniqueViewCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "updatedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "uploadStatus",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "url",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "uuid",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "videoUrl",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "viewCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "vimeoId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "watchlaterAdded",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "watchlaterAddedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "width",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "ytRating",
+            "type": [ "string", "null" ],
+            "default": null
+        }
+    ]
+}

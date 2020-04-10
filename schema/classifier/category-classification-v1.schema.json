@@ -1,0 +1,7 @@
+{
+  "name": "CategoryClassificationV1",
+  "namespace": "icx",
+  "doc": "Classification output from the category classifier",
+  "type": "map",
+  "values": "float"
+}

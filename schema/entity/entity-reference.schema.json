@@ -1,6 +1,6 @@
 {
-  "name": "BaseEntity",
-  "doc": "Base entity item",
+  "name": "EntityReference",
+  "doc": "A reference to an entity using ID and type.",
   "type": "record",
   "fields": [
     {"name": "modelId", "type": "string"},

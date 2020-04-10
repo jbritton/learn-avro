@@ -1,0 +1,451 @@
+{
+    "name": "ConsumerV2",
+    "namespace": "icx",
+    "doc": "Consumer entity v2",
+    "type": "record",
+    "fields": [
+        {
+            "name": "about",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "aboutMe",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "account",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "ageRangeMin",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "albumCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "appearanceCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "bio",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "birthday",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "blockAdded",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "blockAddedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "braggingRights",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "category",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "channelCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "channelImageActive",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "channelImageEndpoint",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "channelImageSizes",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "channelImageType",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "channelUrl",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "circledByCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "crawlUpdatedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "createdTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "creditCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "dbId",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "displayName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "email",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "facebookId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "familyName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "firstName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "followAdded",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "followAddedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "followingCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "follows",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "friendCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "friendcount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "fullName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "gender",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "givenName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "googleId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "groupCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxBirthdayRemoved",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxEmailRemoved",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxLocationNameRemoved",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxLocationRemoved",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "id",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "instagramId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "isPlusUser",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "isVerified",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "lastName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "likeCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "likesCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "link",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "location",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "locationName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mediaCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "middleName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "modelId",
+            "type": [ "string" ]
+        },
+        {
+            "name": "modelType",
+            "type": [ "string" ]
+        },
+        {
+            "name": "moderatedChannelCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "name",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "nickname",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "objectType",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "occupation",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "organization",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "pictureCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "placeLived",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "plusCircledByCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "plusDisplayName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "plusFamilyName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "plusGivenName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "plusId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "plusMiddleName",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "plusOneCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "portfolioCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "preferencesVideosPrivacy",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "profileImageUrl",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "profilePicture",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "relationshipStatus",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "reportReason",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "sharedCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "skills",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "socialContext",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "tagLine",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "taskSourceRootUuid",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "username",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "verified",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "videoCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "vimeoId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "watchlaterCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "website",
+            "type": [ "string", "null" ],
+            "default": null
+        }
+    ]
+}

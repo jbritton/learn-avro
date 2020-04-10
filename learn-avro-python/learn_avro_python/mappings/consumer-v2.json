@@ -1,0 +1,299 @@
+{
+  "about": {
+    "type": "text"
+  },
+  "aboutMe": {
+    "type": "text"
+  },
+  "account": {
+    "type": "keyword"
+  },
+  "ageRangeMin": {
+    "type": "long"
+  },
+  "albumCount": {
+    "type": "long"
+  },
+  "appearanceCount": {
+    "type": "long"
+  },
+  "bio": {
+    "type": "text"
+  },
+  "birthday": {
+    "type": "keyword"
+  },
+  "blockAdded": {
+    "type": "boolean"
+  },
+  "blockAddedTime": {
+    "type": "date"
+  },
+  "braggingRights": {
+    "type": "text"
+  },
+  "category": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "channelCount": {
+    "type": "long"
+  },
+  "channelImageActive": {
+    "type": "boolean"
+  },
+  "channelImageEndpoint": {
+    "type": "keyword"
+  },
+  "channelImageSizes": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "channelImageType": {
+    "type": "keyword"
+  },
+  "channelUrl": {
+    "type": "keyword"
+  },
+  "circledByCount": {
+    "type": "long"
+  },
+  "crawlUpdatedTime": {
+    "type": "date"
+  },
+  "createdTime": {
+    "type": "date"
+  },
+  "creditCount": {
+    "type": "long"
+  },
+  "dbId": {
+    "type": "long"
+  },
+  "displayName": {
+    "type": "text"
+  },
+  "email": {
+    "type": "keyword"
+  },
+  "facebookId": {
+    "type": "keyword"
+  },
+  "familyName": {
+    "type": "text"
+  },
+  "firstName": {
+    "type": "text"
+  },
+  "followAdded": {
+    "type": "boolean"
+  },
+  "followAddedTime": {
+    "type": "date"
+  },
+  "followingCount": {
+    "type": "long"
+  },
+  "follows": {
+    "type": "keyword"
+  },
+  "friendCount": {
+    "type": "long"
+  },
+  "friendcount": {
+    "type": "long"
+  },
+  "fullName": {
+    "type": "text"
+  },
+  "gender": {
+    "type": "keyword"
+  },
+  "givenName": {
+    "type": "text"
+  },
+  "googleId": {
+    "type": "keyword"
+  },
+  "groupCount": {
+    "type": "long"
+  },
+  "icxBirthdayRemoved": {
+    "type": "boolean"
+  },
+  "icxEmailRemoved": {
+    "type": "boolean"
+  },
+  "icxLocationNameRemoved": {
+    "type": "boolean"
+  },
+  "icxLocationRemoved": {
+    "type": "boolean"
+  },
+  "id": {
+    "type": "keyword"
+  },
+  "instagramId": {
+    "type": "keyword"
+  },
+  "isPlusUser": {
+    "type": "boolean"
+  },
+  "isVerified": {
+    "type": "boolean"
+  },
+  "lastName": {
+    "type": "text"
+  },
+  "likeCount": {
+    "type": "long"
+  },
+  "likesCount": {
+    "type": "long"
+  },
+  "link": {
+    "type": "keyword"
+  },
+  "location": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "locationName": {
+    "type": "text"
+  },
+  "mediaCount": {
+    "type": "long"
+  },
+  "middleName": {
+    "type": "text"
+  },
+  "modelId": {
+    "type": "keyword"
+  },
+  "modelType": {
+    "type": "keyword"
+  },
+  "moderatedChannelCount": {
+    "type": "long"
+  },
+  "name": {
+    "type": "keyword"
+  },
+  "nickname": {
+    "type": "text"
+  },
+  "objectType": {
+    "type": "keyword"
+  },
+  "occupation": {
+    "type": "keyword"
+  },
+  "organization": {
+    "type": "keyword"
+  },
+  "pictureCount": {
+    "type": "long"
+  },
+  "placeLived": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "plusCircledByCount": {
+    "type": "long"
+  },
+  "plusDisplayName": {
+    "type": "text"
+  },
+  "plusFamilyName": {
+    "type": "text"
+  },
+  "plusGivenName": {
+    "type": "text"
+  },
+  "plusId": {
+    "type": "keyword"
+  },
+  "plusMiddleName": {
+    "type": "text"
+  },
+  "plusOneCount": {
+    "type": "long"
+  },
+  "portfolioCount": {
+    "type": "long"
+  },
+  "preferencesVideosPrivacy": {
+    "type": "keyword"
+  },
+  "profileImageUrl": {
+    "type": "keyword"
+  },
+  "profilePicture": {
+    "type": "keyword"
+  },
+  "relationshipStatus": {
+    "type": "keyword"
+  },
+  "reportReason": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "sharedCount": {
+    "type": "long"
+  },
+  "skills": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "socialContext": {
+    "type": "keyword"
+  },
+  "tagLine": {
+    "type": "text"
+  },
+  "taskSourceRootUuid": {
+    "type": "keyword"
+  },
+  "username": {
+    "type": "text"
+  },
+  "verified": {
+    "type": "boolean"
+  },
+  "videoCount": {
+    "type": "long"
+  },
+  "vimeoId": {
+    "type": "keyword"
+  },
+  "watchlaterCount": {
+    "type": "long"
+  },
+  "website": {
+    "type": "keyword"
+  }
+}

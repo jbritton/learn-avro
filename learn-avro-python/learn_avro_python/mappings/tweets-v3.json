@@ -1,0 +1,230 @@
+{
+  "category" : {
+    "properties" : {
+      "animalsAndPets" : {
+        "type" : "float"
+      },
+      "animationAndCartoons" : {
+        "type" : "float"
+      },
+      "carsAndTrucks" : {
+        "type" : "float"
+      },
+      "entertainment" : {
+        "type" : "float"
+      },
+      "foodAndDrink" : {
+        "type" : "float"
+      },
+      "gaming" : {
+        "type" : "float"
+      },
+      "healthAndFitness" : {
+        "type" : "float"
+      },
+      "hobbiesAndLeisure" : {
+        "type" : "float"
+      },
+      "homeAndDIY" : {
+        "type" : "float"
+      },
+      "kidsAndFamily" : {
+        "type" : "float"
+      },
+      "learningAndEducation" : {
+        "type" : "float"
+      },
+      "musicAndArts" : {
+        "type" : "float"
+      },
+      "newsAndPolitics" : {
+        "type" : "float"
+      },
+      "peopleAndVlogs" : {
+        "type" : "float"
+      },
+      "scienceAndTechnology" : {
+        "type" : "float"
+      },
+      "spirituality" : {
+        "type" : "float"
+      },
+      "sports" : {
+        "type" : "float"
+      },
+      "styleAndBeauty" : {
+        "type" : "float"
+      },
+      "travel" : {
+        "type" : "float"
+      },
+      "tvAndMovies" : {
+        "type" : "float"
+      },
+      "unknown" : {
+        "type" : "float"
+      }
+    }
+  },
+  "classified" : {
+    "type" : "text",
+    "fields" : {
+      "keyword" : {
+        "type" : "keyword",
+        "ignore_above" : 256
+      }
+    }
+  },
+  "createdTime" : {
+    "type" : "keyword"
+  },
+  "description" : {
+    "type" : "text"
+  },
+  "displayUrls" : {
+    "type" : "text",
+    "fields" : {
+      "raw" : {
+        "type" : "keyword"
+      }
+    }
+  },
+  "expandedUrls" : {
+    "type" : "text",
+    "fields" : {
+      "raw" : {
+        "type" : "keyword"
+      }
+    }
+  },
+  "favoriteCount" : {
+    "type" : "long"
+  },
+  "icxRemovedLatitude" : {
+    "type" : "boolean"
+  },
+  "icxRemovedLongitude" : {
+    "type" : "boolean"
+  },
+  "isEnglish" : {
+    "type" : "boolean"
+  },
+  "language" : {
+    "type" : "keyword"
+  },
+  "locationType" : {
+    "type" : "text",
+    "fields" : {
+      "keyword" : {
+        "type" : "keyword",
+        "ignore_above" : 256
+      }
+    }
+  },
+  "mediaExpandedUrls" : {
+    "type" : "text",
+    "fields" : {
+      "raw" : {
+        "type" : "keyword"
+      }
+    }
+  },
+  "mediaUrls" : {
+    "type" : "text",
+    "fields" : {
+      "raw" : {
+        "type" : "keyword"
+      }
+    }
+  },
+  "mentionedIds" : {
+    "type" : "text",
+    "fields" : {
+      "raw" : {
+        "type" : "long"
+      }
+    }
+  },
+  "mentionedUsers" : {
+    "type" : "text",
+    "fields" : {
+      "raw" : {
+        "type" : "keyword"
+      }
+    }
+  },
+  "modelId" : {
+    "type" : "text",
+    "fields" : {
+      "keyword" : {
+        "type" : "keyword",
+        "ignore_above" : 256
+      }
+    }
+  },
+  "postSource" : {
+    "type" : "text"
+  },
+  "replyCount" : {
+    "type" : "long"
+  },
+  "retweetCount" : {
+    "type" : "long"
+  },
+  "sentiment" : {
+    "properties" : {
+      "negative" : {
+        "type" : "float"
+      },
+      "neutral" : {
+        "type" : "float"
+      },
+      "positive" : {
+        "type" : "float"
+      },
+      "unknown" : {
+        "type" : "float"
+      }
+    }
+  },
+  "tag" : {
+    "type" : "text",
+    "fields" : {
+      "raw" : {
+        "type" : "keyword"
+      }
+    }
+  },
+  "twitterId" : {
+    "type" : "long"
+  },
+  "twitterModelId" : {
+    "type" : "text",
+    "fields" : {
+      "keyword" : {
+        "type" : "keyword",
+        "ignore_above" : 256
+      }
+    }
+  },
+  "twitterStrId" : {
+    "type" : "keyword"
+  },
+  "typeVideo" : {
+    "type" : "boolean"
+  },
+  "urls" : {
+    "type" : "text",
+    "fields" : {
+      "raw" : {
+        "type" : "keyword"
+      }
+    }
+  },
+  "userId" : {
+    "type" : "long"
+  },
+  "userIdStr" : {
+    "type" : "keyword"
+  }
+}

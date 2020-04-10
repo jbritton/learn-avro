@@ -1,0 +1,146 @@
+{
+    "name": "InteractionV2",
+    "namespace": "icx",
+    "doc": "Interaction entity v2",
+    "type": "record",
+    "fields": [
+        {
+            "name": "canRate",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "canReply",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "consumer",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "content",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "contentId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "crawlUpdatedTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "createdTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "dbId",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "facebookId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "googleId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "instagramId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "isPublic",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "likeCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "modelId",
+            "type": [ "string" ]
+        },
+        {
+            "name": "modelType",
+            "type": [ "string" ]
+        },
+        {
+            "name": "name",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "parentId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "post",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "posted",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "replyCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "replyTo",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "source",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "taskSourceRootUuid",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "textOriginal",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "type",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "updatedAt",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "viewerRating",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "vimeoId",
+            "type": [ "string", "null" ],
+            "default": null
+        }
+    ]
+}

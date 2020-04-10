@@ -1,0 +1,350 @@
+{
+  "account": {
+    "type": "keyword"
+  },
+  "accountName": {
+    "type": "text"
+  },
+  "albumCount": {
+    "type": "long"
+  },
+  "appearanceCount": {
+    "type": "long"
+  },
+  "backgroundImageUrl": {
+    "type": "keyword"
+  },
+  "bannerImageUrl": {
+    "type": "keyword"
+  },
+  "bio": {
+    "type": "text"
+  },
+  "blockAdded": {
+    "type": "boolean"
+  },
+  "blockAddedTime": {
+    "type": "date"
+  },
+  "category": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "channelCount": {
+    "type": "long"
+  },
+  "channelImageActive": {
+    "type": "boolean"
+  },
+  "channelImageEndpoint": {
+    "type": "keyword"
+  },
+  "channelImageSizes": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "channelImageType": {
+    "type": "keyword"
+  },
+  "commentCount": {
+    "type": "long"
+  },
+  "communityGuidelinesGoodStanding": {
+    "type": "boolean"
+  },
+  "contentIdClaimsGoodStanding": {
+    "type": "boolean"
+  },
+  "contentOwner": {
+    "type": "keyword"
+  },
+  "copyrightStrikesGoodStanding": {
+    "type": "boolean"
+  },
+  "country": {
+    "type": "keyword"
+  },
+  "crawlUpdatedTime": {
+    "type": "date"
+  },
+  "createdAt": {
+    "type": "keyword"
+  },
+  "createdTime": {
+    "type": "date"
+  },
+  "customUrl": {
+    "type": "keyword"
+  },
+  "dbId": {
+    "type": "long"
+  },
+  "defaultLanguage": {
+    "type": "keyword"
+  },
+  "defaultTab": {
+    "type": "keyword"
+  },
+  "description": {
+    "type": "text"
+  },
+  "facebookGraphId": {
+    "type": "keyword"
+  },
+  "facebookId": {
+    "type": "keyword"
+  },
+  "featuredChannelsTitle": {
+    "type": "keyword"
+  },
+  "featuredChannelsUrls": {
+    "type": "keyword"
+  },
+  "followAdded": {
+    "type": "boolean"
+  },
+  "followAddedTime": {
+    "type": "date"
+  },
+  "followCount": {
+    "type": "long"
+  },
+  "followingCount": {
+    "type": "long"
+  },
+  "fullName": {
+    "type": "text"
+  },
+  "googleId": {
+    "type": "keyword"
+  },
+  "googlePlusApiId": {
+    "type": "keyword"
+  },
+  "googlePlusId": {
+    "type": "keyword"
+  },
+  "groupCount": {
+    "type": "long"
+  },
+  "icxLocationRemoved": {
+    "type": "boolean"
+  },
+  "icxLocationStringRemoved": {
+    "type": "boolean"
+  },
+  "instagramApiId": {
+    "type": "keyword"
+  },
+  "instagramFullName": {
+    "type": "keyword"
+  },
+  "instagramId": {
+    "type": "keyword"
+  },
+  "isBusiness": {
+    "type": "boolean"
+  },
+  "isLinked": {
+    "type": "boolean"
+  },
+  "isVerified": {
+    "type": "boolean"
+  },
+  "keywords": {
+    "type": "keyword"
+  },
+  "languageCode": {
+    "type": "keyword"
+  },
+  "likeCount": {
+    "type": "long"
+  },
+  "link": {
+    "type": "keyword"
+  },
+  "linkedinId": {
+    "type": "keyword"
+  },
+  "location": {
+    "type": "keyword"
+  },
+  "locationString": {
+    "type": "text"
+  },
+  "longUploadsStatus": {
+    "type": "keyword"
+  },
+  "modelId": {
+    "type": "keyword"
+  },
+  "modelType": {
+    "type": "keyword"
+  },
+  "moderateComments": {
+    "type": "boolean"
+  },
+  "moderatedChannelCount": {
+    "type": "long"
+  },
+  "name": {
+    "type": "keyword"
+  },
+  "overallGoodStanding": {
+    "type": "boolean"
+  },
+  "owner": {
+    "type": "keyword"
+  },
+  "pageImpressions": {
+    "type": "long"
+  },
+  "pictureCount": {
+    "type": "long"
+  },
+  "platform": {
+    "type": "keyword"
+  },
+  "platformId": {
+    "type": "text"
+  },
+  "platformType": {
+    "type": "keyword"
+  },
+  "portfolioCount": {
+    "type": "long"
+  },
+  "postCount": {
+    "type": "long"
+  },
+  "preferencesVideosPrivacy": {
+    "type": "keyword"
+  },
+  "privacyStatus": {
+    "type": "keyword"
+  },
+  "profileColor": {
+    "type": "keyword"
+  },
+  "profileUrl": {
+    "type": "keyword"
+  },
+  "relatedPlaylistsFavorites": {
+    "type": "keyword"
+  },
+  "relatedPlaylistsLikes": {
+    "type": "keyword"
+  },
+  "relatedPlaylistsUploads": {
+    "type": "keyword"
+  },
+  "reportReason": {
+    "type": "text",
+    "fields": {
+      "raw": {
+        "type": "keyword"
+      }
+    }
+  },
+  "searchable": {
+    "type": "boolean"
+  },
+  "sharedCount": {
+    "type": "long"
+  },
+  "showBrowseView": {
+    "type": "boolean"
+  },
+  "showRelatedChannels": {
+    "type": "boolean"
+  },
+  "subscriberCount": {
+    "type": "long"
+  },
+  "taskSourceRootUuid": {
+    "type": "keyword"
+  },
+  "taskUuid": {
+    "type": "keyword"
+  },
+  "thumbnail": {
+    "type": "keyword"
+  },
+  "thumbnailDefault": {
+    "type": "keyword"
+  },
+  "thumbnailHeight": {
+    "type": "long"
+  },
+  "thumbnailHeightDefault": {
+    "type": "long"
+  },
+  "thumbnailHeightHigh": {
+    "type": "long"
+  },
+  "thumbnailHigh": {
+    "type": "keyword"
+  },
+  "thumbnailWidth": {
+    "type": "long"
+  },
+  "thumbnailWidthDefault": {
+    "type": "long"
+  },
+  "thumbnailWidthHigh": {
+    "type": "long"
+  },
+  "timeLinked": {
+    "type": "date"
+  },
+  "title": {
+    "type": "text"
+  },
+  "topic": {
+    "type": "keyword"
+  },
+  "topicCategories": {
+    "type": "keyword"
+  },
+  "trackingAnalyticsAccountId": {
+    "type": "keyword"
+  },
+  "twitterApiId": {
+    "type": "keyword"
+  },
+  "twitterId": {
+    "type": "keyword"
+  },
+  "unsubscribedTrailer": {
+    "type": "keyword"
+  },
+  "uuid": {
+    "type": "keyword"
+  },
+  "videoCount": {
+    "type": "long"
+  },
+  "viewCount": {
+    "type": "long"
+  },
+  "vimeoApiId": {
+    "type": "keyword"
+  },
+  "vimeoId": {
+    "type": "keyword"
+  },
+  "watchlaterCount": {
+    "type": "long"
+  },
+  "website": {
+    "type": "text"
+  }
+}

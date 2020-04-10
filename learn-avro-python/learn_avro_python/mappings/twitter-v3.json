@@ -1,0 +1,247 @@
+{
+  "age" : {
+    "properties" : {
+      "score" : {
+        "type" : "float"
+      },
+      "value" : {
+        "type" : "text",
+        "fields" : {
+          "keyword" : {
+            "type" : "keyword",
+            "ignore_above" : 256
+          }
+        }
+      }
+    }
+  },
+  "category" : {
+    "properties" : {
+      "animalsAndPets" : {
+        "type" : "float"
+      },
+      "animationAndCartoons" : {
+        "type" : "float"
+      },
+      "carsAndTrucks" : {
+        "type" : "float"
+      },
+      "entertainment" : {
+        "type" : "float"
+      },
+      "foodAndDrink" : {
+        "type" : "float"
+      },
+      "gaming" : {
+        "type" : "float"
+      },
+      "healthAndFitness" : {
+        "type" : "float"
+      },
+      "hobbiesAndLeisure" : {
+        "type" : "float"
+      },
+      "homeAndDIY" : {
+        "type" : "float"
+      },
+      "kidsAndFamily" : {
+        "type" : "float"
+      },
+      "learningAndEducation" : {
+        "type" : "float"
+      },
+      "musicAndArts" : {
+        "type" : "float"
+      },
+      "newsAndPolitics" : {
+        "type" : "float"
+      },
+      "peopleAndVlogs" : {
+        "type" : "float"
+      },
+      "scienceAndTechnology" : {
+        "type" : "float"
+      },
+      "spirituality" : {
+        "type" : "float"
+      },
+      "sports" : {
+        "type" : "float"
+      },
+      "styleAndBeauty" : {
+        "type" : "float"
+      },
+      "travel" : {
+        "type" : "float"
+      },
+      "tvAndMovies" : {
+        "type" : "float"
+      },
+      "unknown" : {
+        "type" : "float"
+      }
+    }
+  },
+  "classified" : {
+    "type" : "text",
+    "fields" : {
+      "keyword" : {
+        "type" : "keyword",
+        "ignore_above" : 256
+      }
+    }
+  },
+  "createdAt" : {
+    "type" : "keyword"
+  },
+  "description" : {
+    "type" : "text"
+  },
+  "email" : {
+    "type" : "keyword"
+  },
+  "ethnicity" : {
+    "properties" : {
+      "score" : {
+        "type" : "float"
+      },
+      "value" : {
+        "type" : "text",
+        "fields" : {
+          "keyword" : {
+            "type" : "keyword",
+            "ignore_above" : 256
+          }
+        }
+      }
+    }
+  },
+  "ffMigrated" : {
+    "type" : "boolean"
+  },
+  "followerIds" : {
+    "type" : "text",
+    "fields" : {
+      "raw" : {
+        "type" : "keyword"
+      }
+    }
+  },
+  "followers" : {
+    "type" : "long"
+  },
+  "followersCount" : {
+    "type" : "long"
+  },
+  "friendIds" : {
+    "type" : "text",
+    "fields" : {
+      "raw" : {
+        "type" : "keyword"
+      }
+    }
+  },
+  "friends" : {
+    "type" : "long"
+  },
+  "friendsCount" : {
+    "type" : "long"
+  },
+  "gender" : {
+    "properties" : {
+      "score" : {
+        "type" : "float"
+      },
+      "value" : {
+        "type" : "text",
+        "fields" : {
+          "keyword" : {
+            "type" : "keyword",
+            "ignore_above" : 256
+          }
+        }
+      }
+    }
+  },
+  "inferredFollowers" : {
+    "type" : "text",
+    "fields" : {
+      "raw" : {
+        "type" : "keyword"
+      }
+    }
+  },
+  "inferredlocation" : {
+    "properties" : {
+      "city" : {
+        "type" : "text",
+        "fields" : {
+          "keyword" : {
+            "type" : "keyword",
+            "ignore_above" : 256
+          }
+        }
+      },
+      "dma" : {
+        "type" : "long"
+      },
+      "dmaName" : {
+        "type" : "text",
+        "fields" : {
+          "keyword" : {
+            "type" : "keyword",
+            "ignore_above" : 256
+          }
+        }
+      },
+      "state" : {
+        "type" : "text",
+        "fields" : {
+          "keyword" : {
+            "type" : "keyword",
+            "ignore_above" : 256
+          }
+        }
+      }
+    }
+  },
+  "location" : {
+    "type" : "text"
+  },
+  "modelId" : {
+    "type" : "text",
+    "fields" : {
+      "keyword" : {
+        "type" : "keyword",
+        "ignore_above" : 256
+      }
+    }
+  },
+  "notUs" : {
+    "type" : "boolean"
+  },
+  "screenName" : {
+    "type" : "text",
+    "fields" : {
+      "keyword" : {
+        "type" : "keyword",
+        "ignore_above" : 256
+      }
+    }
+  },
+  "title" : {
+    "type" : "text",
+    "fields" : {
+      "keyword" : {
+        "type" : "keyword",
+        "ignore_above" : 256
+      }
+    }
+  },
+  "twitterId" : {
+    "type" : "long"
+  },
+  "twitterStrId" : {
+    "type" : "keyword"
+  }
+}

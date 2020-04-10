@@ -1,0 +1,156 @@
+{
+    "name": "TweetV3",
+    "namespace": "icx",
+    "doc": "Tweet entity v3",
+    "type": "record",
+    "fields": [
+        {
+            "name": "category",
+            "type": [ "CategoryClassificationV1", "null" ],
+            "default": null
+        },
+        {
+            "name": "classified",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "createdTime",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "description",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "displayUrls",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "expandedUrls",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "favoriteCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxRemovedLatitude",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "icxRemovedLongitude",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "isEnglish",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "language",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "locationType",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mediaExpandedUrls",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mediaUrls",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mentionedIds",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "mentionedUsers",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "modelId",
+            "type": [ "string" ]
+        },
+        {
+            "name": "modelType",
+            "type": [ "string" ]
+        },
+        {
+            "name": "postSource",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "replyCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "retweetCount",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "sentiment",
+            "type": [ "SentimentClassificationV1", "null" ],
+            "default": null
+        },
+        {
+            "name": "tag",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "twitterId",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "twitterModelId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "twitterStrId",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "typeVideo",
+            "type": [ "boolean", "null" ],
+            "default": null
+        },
+        {
+            "name": "urls",
+            "type": [ "string", "null" ],
+            "default": null
+        },
+        {
+            "name": "userId",
+            "type": [ "long", "null" ],
+            "default": null
+        },
+        {
+            "name": "userIdStr",
+            "type": [ "string", "null" ],
+            "default": null
+        }
+    ]
+}

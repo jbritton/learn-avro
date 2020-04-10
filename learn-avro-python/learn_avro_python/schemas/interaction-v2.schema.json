@@ -1,0 +1,204 @@
+{
+    "name": "InteractionV2",
+    "namespace": "icx",
+    "doc": "Interaction entity v2",
+    "type": "record",
+    "fields": [
+        {
+            "name": "canRate",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "canReply",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "consumer",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "content",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "contentId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "crawlUpdatedTime",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "createdTime",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "dbId",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "facebookId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "googleId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "instagramId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "isPublic",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        {
+            "name": "likeCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "modelId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "modelType",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "name",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "parentId",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "post",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "posted",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "replyCount",
+            "type": [
+                "long",
+                "null"
+            ]
+        },
+        {
+            "name": "replyTo",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "source",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "taskSourceRootUuid",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "textOriginal",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "type",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "updatedAt",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "viewerRating",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "vimeoId",
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    ]
+}
