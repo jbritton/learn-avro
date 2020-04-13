@@ -105,7 +105,8 @@
     (serialize-complex-entity-to-file schema-files data-file output-file)))
 
 (defn serialize-twitter-tweet []
-  (let [schema-files ["entity/tweet-v3.schema.json"]
+  (let [schema-files ["classifier/sentiment-classification-v1.schema.json"
+                      "entity/tweet-v3.schema.json"]
         data-file "data/tweet-tw.json"
         output-file "twitter-tweet.avro"]
     (serialize-complex-entity-to-file schema-files data-file output-file)))

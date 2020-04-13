@@ -23,7 +23,7 @@ def read_avro_file(file_path):
 
 def main():
     # file_path = "/Users/jeffbritton/Code/personal/learn-avro/learn-avro-clj/base-entity.avro"
-    file_path = "/Users/jeffbritton/Code/personal/learn-avro/learn-avro-clj/channel-v2.avro"
+    file_path = "/Users/jeffbritton/Code/personal/learn-avro/learn-avro-clj/twitter-tweet.avro"
     read_avro_file(file_path)
 
 

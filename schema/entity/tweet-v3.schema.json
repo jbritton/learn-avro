@@ -6,7 +6,7 @@
     "fields": [
         {
             "name": "category",
-            "type": [ "icx.CategoryClassificationV1", "null" ]
+            "type": [ { "type": "map", "values": "float" }, "null" ]
         },
         {
             "name": "classified",
@@ -22,11 +22,11 @@
         },
         {
             "name": "displayUrls",
-            "type": [ "string", "null" ]
+            "type": [ { "type": "array", "items": "string" }, "null" ]
         },
         {
             "name": "expandedUrls",
-            "type": [ "string", "null" ]
+            "type": [ { "type": "array", "items": "string" }, "null" ]
         },
         {
             "name": "favoriteCount",
@@ -94,7 +94,7 @@
         },
         {
             "name": "tag",
-            "type": [ "string", "null" ]
+            "type": [ { "type": "array", "items": "string" }, "null" ]
         },
         {
             "name": "twitterId",
@@ -114,7 +114,7 @@
         },
         {
             "name": "urls",
-            "type": [ "string", "null" ]
+            "type": [ { "type": "array", "items": "string" }, "null" ]
         },
         {
             "name": "userId",
