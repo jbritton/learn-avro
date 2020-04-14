@@ -78,11 +78,11 @@
         },
         {
             "name": "modelId",
-            "type": [ "string" ]
+            "type": "string"
         },
         {
             "name": "modelType",
-            "type": [ "string" ]
+            "type": "string"
         },
         {
             "name": "notUs",
